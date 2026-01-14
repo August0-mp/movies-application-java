@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.heading {
+    font-size: '3rem';
+    font-weight: 'bold';
+    color: '#333';
+}
+
+.message {
+    font-size: '1.2rem';
+    color: '#555';
+    margin: '10px 0';
+}
+
+.link {
+    font-size: '1rem';
+    color: '#007bff';
+    text-decoration: 'none';
+    margin-top: '20px';
+};

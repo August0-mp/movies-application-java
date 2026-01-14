@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    opacity: 0.8;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+  }
+  ul {
+    display: flex;
+    margin-right: 1rem;
+  }
+  li {
+    list-style-type: none;
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .navbar a {
+    color: #fff;
+  }
+  .navbar .log {
+    font-weight: 400;
+  }
+  .logo {
+    background: url("../../assets/imagem_2024-11-25_180810761-fotor-bg-remover-2024112518820.png");
+    background-size: contain;
+    width: 70px;
+    height: 70px; 
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+
+  .user-tab {
+    position: relative;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 40px;
+    left: -80px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .dropdown button {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .dropdown button:hover {
+    text-decoration: underline;
+  }
+  
